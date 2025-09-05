@@ -514,7 +514,7 @@ a:focus {
 }
 
 .food_section .box .img-box {
-  background: #f1f2f3;
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -531,8 +531,8 @@ a:focus {
 }
 
 .food_section .box .img-box img {
-  max-width: 100%;
-  max-height: 145px;
+  max-width: 300%;
+  max-height: 215px;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
