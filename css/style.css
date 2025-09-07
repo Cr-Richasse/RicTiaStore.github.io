@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #010529;
   overflow-x: hidden;
 }
 
@@ -339,6 +339,7 @@ a:focus {
 .slider_section .detail-box {
   color: #ffffff;
   margin-bottom: 145px;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 
 .slider_section .detail-box h1 {
@@ -478,6 +479,7 @@ a:focus {
 }
 
 .food_section .filters_menu {
+  color: white;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -489,6 +491,10 @@ a:focus {
           justify-content: center;
   list-style-type: none;
   margin: 45px 0 20px 0;
+}
+
+.seccion_catalogo {
+  color: #ffffff;
 }
 
 .food_section .filters_menu li {
@@ -728,6 +734,10 @@ a:focus {
 }
 
 /* client section start */
+.seccion_reseñas {
+  color: #ffffff;
+}
+
 .client_section .heading_container {
   margin-bottom: 30px;
 }
