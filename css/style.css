@@ -1009,4 +1009,11 @@ a:focus {
 .info{
   color: #ffffff;
 }
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: none; /* Oculta los mensajes por defecto */
+}
 /*# sourceMappingURL=style.css.map */

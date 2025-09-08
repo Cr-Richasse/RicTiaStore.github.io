@@ -86,22 +86,22 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" class="form-control" placeholder="Nombre titular" />
+                <input type="text" id="nombreTarjeta" class="form-control" placeholder="Nombre titular" />
               </div>
               <div>
-                <input type="text" class="form-control" placeholder="Número titular" />
+                <input type="text" id="numeroTarjeta" class="form-control" placeholder="Número titular" />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Direccion " />
+                <input type="text" id="direccionTarjeta" class="form-control" placeholder="Direccion " />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Codigo verificador" />
+                <input type="email" id="emailTarjeta" class="form-control" placeholder="Codigo verificador" />
               </div>
               <div>
                 <input type="date" class="form-control">
               </div>
               <div class="btn_box">
-                <button>
+                <button onclick="valTarjeta()">
                   Confirmar
                 </button>
               </div>

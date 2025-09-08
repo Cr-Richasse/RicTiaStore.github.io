@@ -74,45 +74,49 @@
   </div>
 
   <!-- book section -->
-  <section class="book_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2 class="info">
-          Informacion personal
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" class="form-control" placeholder="Nombre completo" />
-              </div>
-              <div>
-                <input type="text" class="form-control" placeholder="Número de teléfono" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Tu correo electrónico" />
-              </div>
-              <div>
-                <input type="date" class="form-control">
-              </div>
-              <div class="btn_box">
-                <button>
-                  Guardar
-                </button>
-              </div>
-            </form>
-          </div>
+<section class="book_section layout_padding">
+  <div class="container">
+    <div class="heading_container">
+      <h2 class="info">
+        Informacion personal
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form_container">
+          <form id="personal-info-form">
+            <div>
+              <span id="nombre-error" class="error-message"></span>
+              <input type="text" id="nombre-completo" name="nombre-completo" class="form-control" placeholder="Nombre completo" />
+            </div>
+            <div>
+              <span id="telefono-error" class="error-message"></span>
+              <input type="text" id="numero-telefono" name="numero-telefono" class="form-control" placeholder="Número de teléfono" />
+            </div>
+            <div>
+              <span id="correo-error" class="error-message"></span>
+              <input type="email" id="correo-electronico" name="correo-electronico" class="form-control" placeholder="Tu correo electrónico" />
+            </div>
+            <div>
+              <span id="fecha-error" class="error-message"></span>
+              <input type="text" id="fecha-nacimiento" name="fecha-nacimiento" class="form-control" placeholder="dd-mm-aaaa" />
+            </div>
+            <div class="btn_box">
+              <button type="submit">
+                Guardar
+              </button>
+            </div>
+          </form>
         </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="map_container ">
+          <div id="googleMap"></div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   <!-- end book section -->
 
   <!-- footer section -->
@@ -209,7 +213,8 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
-
+<script src="js/validarinf.js"
+></script>
 </body>
 
 </html>
