@@ -61,9 +61,9 @@
                 <a class="nav-link" href="menu.html">Catalogo</a>
               </li>
             </ul>
-            <div class="user_option">            
-              <a href="" class="order_online">
-                Order Online
+            <div class="user_option">
+              <a href="index.html" class="order_online">
+                Volver al inicio
               </a>
             </div>
           </div>
@@ -86,23 +86,19 @@
         <div class="form_container">
           <form id="personal-info-form">
             <div>
-              <span id="nombre-error" class="error-message"></span>
-              <input type="text" id="nombre-completo" name="nombre-completo" class="form-control" placeholder="Nombre completo" />
+              <input type="text" id="nombre-completo" class="form-control" placeholder="Nombre completo" />
             </div>
             <div>
-              <span id="telefono-error" class="error-message"></span>
-              <input type="text" id="numero-telefono" name="numero-telefono" class="form-control" placeholder="Número de teléfono" />
+              <input type="number" id="numero-telefono" class="form-control" placeholder="Número de teléfono" />
             </div>
             <div>
-              <span id="correo-error" class="error-message"></span>
-              <input type="email" id="correo-electronico" name="correo-electronico" class="form-control" placeholder="Tu correo electrónico" />
+              <input type="email" id="correo-electronico" class="form-control" placeholder="Tu correo electrónico" />
             </div>
             <div>
-              <span id="fecha-error" class="error-message"></span>
-              <input type="text" id="fecha-nacimiento" name="fecha-nacimiento" class="form-control" placeholder="dd-mm-aaaa" />
+              <input type="text" id="fecha-nacimiento" class="form-control" placeholder="dd-mm-aaaa" />
             </div>
             <div class="btn_box">
-              <button type="submit">
+              <button type="button" onclick="valInfo()">
                 Guardar
               </button>
             </div>
